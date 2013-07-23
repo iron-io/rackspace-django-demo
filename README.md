@@ -12,7 +12,11 @@ A demo application showing off how to use Django middleware and IronMQ to do ana
 		export IRON_TOKEN="insert your oauth token here"
 
 6. Clone this repo
-7. Set up your push queues as described in the post
+7. Set up your push queues
+	* Go into the Iron.io [HUD](https://hud.iron.io) and browse to your requests queue
+	* In the box labeled “Push Information”, select “multicast” for the Push Type.
+	* Leave Retries and Retries Delay at their default values.
+	* Hit “Update Queue”. You’ve turned the queue into a push queue.
 8. Start redis: `redis-server`
 9. Start the app: `python manage.py runserver`
 10. Start the request worker: `python req_worker.py`
