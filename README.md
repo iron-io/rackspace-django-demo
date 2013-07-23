@@ -8,8 +8,8 @@ A demo application showing off how to use Django middleware and IronMQ to do ana
 4. [Sign up for IronMQ](http://iron.io/mq)
 5. Set your IronMQ credentials:
 
-	export IRON_PROJECT_ID="insert your project ID here"
-	export IRON_TOKEN="insert your oauth token here"
+		export IRON_PROJECT_ID="insert your project ID here"
+		export IRON_TOKEN="insert your oauth token here"
 
 6. Clone this repo
 7. Set up your push queues as described in the post
